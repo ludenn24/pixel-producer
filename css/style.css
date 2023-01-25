@@ -1,21 +1,35 @@
-body {
-  margin: 10rem !important;
-  margin-top: 5rem !important;
-  background-color: #b0b0b2 !important;
+.logo {
+  position: relative;
+  display: inline-block;
+}
+
+.logo img {
+  max-width: 230px;
+  width: 100%;
+}
+
+.logo .img-top {
+  display: none;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 99;
+}
+
+.logo:hover .img-top {
+  display: inline;
 }
 
 .autor {
-  font-size: 35px;
+  font-size: 50px;
   font-weight: bold;
   text-align: right;
 }
 
 .autor-detail {
   text-align: right;
-  font-size: 12px;
+  font-size: 16px;
   font-weight: bold;
-  margin-top: -10px;
-  margin-bottom: auto;
 }
 
 .container {
@@ -24,91 +38,52 @@ body {
 }
 
 .revista {
-  box-shadow: -37px -1px 9px 0px rgba(54,49,49,0.69);
-  -webkit-box-shadow: -37px -1px 9px 0px rgba(54,49,49,0.69);
-  -moz-box-shadow: -37px -1px 9px 0px rgba(54,49,49,0.69);
+  box-shadow: -37px -1px 9px 0px rgba(54, 49, 49, 0.69);
+  -webkit-box-shadow: -37px -1px 9px 0px rgba(54, 49, 49, 0.69);
+  -moz-box-shadow: -37px -1px 9px 0px rgba(54, 49, 49, 0.69);
 }
 
-.logo {
-  max-width: 220px;
+
+
+.iconos {
+  float: right;
+  max-width: 250px;
   width: 100%;
   transition: all .3s ease-in-out;
 }
 
-/*
- * Custom translucent site header
- */
-
-.site-header {
-  background-color: rgba(0, 0, 0, .85);
-  -webkit-backdrop-filter: saturate(180%) blur(20px);
-  backdrop-filter: saturate(180%) blur(20px);
-}
-.site-header a {
-  color: #999;
-  transition: ease-in-out color .15s;
-}
-.site-header a:hover {
-  color: #fff;
-  text-decoration: none;
+.date-text {
+  font-size: 15px;
+  float: right;
 }
 
-/*
- * Dummy devices (replace them with your own or something else entirely!)
- */
-
-.product-device {
-  position: absolute;
-  right: 10%;
-  bottom: -30%;
-  width: 300px;
-  height: 540px;
-  background-color: #333;
-  border-radius: 21px;
-  -webkit-transform: rotate(30deg);
-  transform: rotate(30deg);
+.time-text {
+  font-size: 15px;
+  float: right;
+}
+.city-text {
+  font-size: 15px;
+  float: right;
 }
 
-.product-device::before {
-  position: absolute;
-  top: 10%;
-  right: 10px;
-  bottom: 10%;
-  left: 10px;
-  content: "";
-  background-color: rgba(255, 255, 255, .1);
-  border-radius: 5px;
+.day-text {
+  font-size: 50px;
+  text-align: right;
+  display: block;
 }
 
-.product-device-2 {
-  top: -25%;
-  right: auto;
-  bottom: 0;
-  left: 5%;
-  background-color: #e5e5e5;
-}
-
-
-/*
- * Extra utilities
- */
-
-.border-top { border-top: 1px solid #e5e5e5; }
-.border-bottom { border-bottom: 1px solid #e5e5e5; }
-
-.box-shadow { box-shadow: 0 .25rem .75rem rgba(0, 0, 0, .05); }
-
-.flex-equal > * {
-  -ms-flex: 1;
-  -webkit-box-flex: 1;
-  flex: 1;
-}
-@media (min-width: 768px) {
-  .flex-md-equal > * {
-    -ms-flex: 1;
-    -webkit-box-flex: 1;
-    flex: 1;
+@media only screen and (min-width: 600px) {
+  body {
+    margin: 0rem !important;
+    margin-top: 5rem !important;
+    background-color: #b0b0b2 !important;
   }
 }
 
-.overflow-hidden { overflow: hidden; }
+@media only screen and (min-width: 768px) {
+  body {
+    margin: 0rem !important;
+    margin-top: 5rem !important;
+    background-color: #b0b0b2 !important;
+  }
+}
