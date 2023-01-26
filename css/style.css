@@ -43,7 +43,19 @@
   -moz-box-shadow: -37px -1px 9px 0px rgba(54, 49, 49, 0.69);
 }
 
+.menu-disco{
+  background-image: url(../images/disco.png) !important;
+  margin-top: -150px;
+  background-position: center center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 100vh;
+}
 
+section {
+  display: block
+}
 
 .iconos {
   float: right;
