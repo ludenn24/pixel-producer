@@ -21,20 +21,20 @@
 }
 
 .autor {
-  font-size: 50px;
+  font-size: 33px;
   font-weight: bold;
   text-align: right;
 }
 
 .autor-detail {
   text-align: right;
-  font-size: 16px;
+  font-size: 11px;
   font-weight: bold;
 }
 
 .container {
   background-color: #dfded9;
-  max-width: 960px;
+  max-width: 700px !important;
 }
 
 .revista {
@@ -45,7 +45,7 @@
 
 .menu-disco{
   background-image: url(../images/disco.png) !important;
-  margin-top: -150px;
+  margin-top: -180px;
   background-position: center center;
   background-size: contain;
   background-repeat: no-repeat;
@@ -59,29 +59,121 @@ section {
 
 .iconos {
   float: right;
-  max-width: 250px;
+  max-width: 225px;
   width: 100%;
   transition: all .3s ease-in-out;
 }
 
 .date-text {
-  font-size: 15px;
+  font-size: 11px;
   float: right;
 }
 
 .time-text {
-  font-size: 15px;
+  font-size: 11px;
   float: right;
 }
 .city-text {
-  font-size: 15px;
+  font-size: 10px;
   float: right;
 }
 
 .day-text {
-  font-size: 50px;
+  font-size: 30px;
   text-align: right;
   display: block;
+}
+
+.vertical-center {
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+}
+
+/*Menu*/
+.nav-item img{
+  max-width: 100%;
+  width: 270px;
+}
+
+.nav-item a{
+  padding: 0;
+}
+
+/*Footer*/
+.footer{
+  margin-top: -130px;
+}
+
+.footer li a{
+  font-size: 12px;
+  font-weight: 500;
+  color: black;
+}
+
+.footer li{
+
+line-height: 1.1;
+}
+
+.footer img{
+  max-width: 20px;
+  float: left;
+}
+
+.footer .copyright p{
+  font-size: 12px;
+    text-align: right;
+}
+
+.copyright {
+  font-size: 12px;
+  text-align: right;
+  border-top: solid 2px #b5b5b5;
+  padding-top: 10px;
+}
+
+.socials {
+  padding-bottom: 15px;
+  display: block;
+  float: right;
+}
+
+.socials a, .socials .link {
+  margin-right: 10px;
+  margin-bottom: 10px;
+  width: 30px;
+  height: 30px;
+  text-align: center;
+  line-height: 25px;
+  border: solid 2px black;
+  border-radius: 20px;
+  /* background-color: #00a39c; */
+  display: inline-block;
+  transition: all .3s ease-in;
+}
+
+.socials a:last-child, .socials .link:last-child {
+  margin-right: 0
+}
+
+.socials a i, .socials .link i {
+  color: #000;
+}
+
+
+.social-widget {
+  margin-top: 30px;
+  border: none;
+  padding-top: 0px
+}
+
+.social-widget a, .social-widget .link {
+  background-color: #a8b0b6;
+  margin-bottom: 10px;
+  margin-right: 8px
 }
 
 @media only screen and (min-width: 600px) {
@@ -96,6 +188,7 @@ section {
   body {
     margin: 0rem !important;
     margin-top: 5rem !important;
+    margin-bottom: 5rem !important;
     background-color: #b0b0b2 !important;
   }
 }
