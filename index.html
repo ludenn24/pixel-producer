@@ -1,139 +1,248 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 
-<head>
-  <!-- styles CSS -->
-  <link rel="stylesheet" id="style-css" href="css/default.css" type="text/css" media="all">
-  <link rel="stylesheet" id="style-css" href="css/style.css" type="text/css" media="all">
-  <link rel="stylesheet" id="style-css" href="css/quotes.css" type="text/css" media="all">
-  <!-- Bootstrap CSS -->
-  <title>Javier+Gonzales</title>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css">
-  <script src="https://cdn.jsdelivr.net/npm/jquery@3.6.1/dist/jquery.slim.min.js"></script>
-  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js"></script>
-  <script src="https://kit.fontawesome.com/222769f28f.js" crossorigin="anonymous"></script>
-  <script src="js/date.js"></script>
-</head>
+    <head>
+        <!-- styles CSS -->
+        <link
+            rel="stylesheet"
+            id="style-css"
+            href="css/default.css"
+            type="text/css"
+            media="all">
+        <link
+            rel="stylesheet"
+            id="style-css"
+            href="css/style.css?v=1.0"
+            type="text/css"
+            media="all">
+        <link
+            rel="stylesheet"
+            id="style-css"
+            href="css/quotes.css"
+            type="text/css"
+            media="all">
+        <!-- Bootstrap CSS -->
+        <title>Javier+Gonzales</title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link
+            rel="stylesheet"
+            href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css">
+        <script src="https://cdn.jsdelivr.net/npm/jquery@3.6.1/dist/jquery.slim.min.js"></script>
+        <script
+            src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+        <script
+            src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js"></script>
+        <script src="https://kit.fontawesome.com/222769f28f.js" crossorigin="anonymous"></script>
+        <script src="js/date.js"></script>
 
-<body>
-  <div class="container revista">
-    <section class="head">
-      <div class="row">
-        <div class="col-sm-5">
-          <div class="pt-md-5 px-md-3 text-center">
-            <img style="width: 100%" src="images/premios.png">
-            <div class="pt-md-5 px-md-5">
-              <div class="logo">
-                <img src="images/logo_sa.png" alt="Card Back">
-                <img src="images/logo_a.png" class="img-top" alt="Card Front">
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="col-sm-7">
-          <div class="pt-md-5 px-md-3">
+        <style>
+
+            .left-box {
+                box-shadow: inset 7px 0 9px -7px rgba(0,0,0,0.7);
+            }
+
+            .lef-box-image{
+                box-shadow: inset 50px 0 30px -50px;
+            }
+
+            .shadow-revista {
+                -webkit-box-shadow: -37px -1px 9px 0 rgb(54 49 49 / 69%);
+            }
+
+            
+
+        </style>
+    </head>
+
+    <body>
+        <div class="container shadow-revista">
             <div class="row">
-              <div class="col-sm-3">
-                <h5 class="font-weight-bold">
-                  <span class="day-text"></span>
-                  <span class="city-text">Barcelona</span>
-                  <span class="date-text"></span>
-                  <span class="time-text" id="ct"></span>
-                </h5>
-              </div>
-              <div class="col-sm-9">
-                <h2 class="display-5 autor">Javier+Gonzalez</h2>
-                <p class="autor-detail" style="margin-bottom: 0;">Producer+Post Producer Audiovisual Senior</p>
-                <p class="autor-detail">Global+Local</p>
-                <img class="iconos" src="images/iconos.gif">
-                <div class="giant-quotes-quote">
-                  <blockquote>
-                    <p>El valor del producto está en la producción</p>
-                    <cite>A. Einstein</cite>
-                  </blockquote>
+        <div class="container revista lef-box-image">
+       
+            <section class="head">
+                <div class="row">
+                    <div class="col-sm-5">
+                        <div class="pt-md-4 pt-4 px-md-2 text-center">
+                            <div class="col-7 col-sm-12">
+                                <img style="width: 100%" src="images/premios.png">
+                            </div>
+                            <div class="pt-md-5 px-md-5">
+                                <div class="logo">
+                                    <img src="images/logo_a.png" alt="Card Back">
+                                    <img src="images/logo_sa.png" class="img-top">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-7 pt-md-3">
+                        <div class="px-4 p-cus-top">
+                            <div class="row">
+                                <div class="col-sm-3 col-3 no-padding-mobile no-padding-mobile-rigth">
+                                        <ul class="list-unstyled">
+                                            <li class="day-text"></li>
+                                            <li class="date-text"></li>
+                                            <li class="city-text">Barcelona</li>
+                                        </ul>
+                                </div>
+                                <div class="col-sm-9 col-9 no-padding-mobile">
+                                    <h2 class="display-5 autor">Javier+Gonzalez</h2>
+                                    <p class="autor-detail" style="margin-bottom: 0;">Producer+Post Producer Audiovisual Senior</p>
+                                    <p class="autor-detail">Global+Local</p>
+                                    <img class="iconos" src="images/iconos_.gif">
+                                </div>
+                                <div class="col-sm-12 col-12 no-padding-mobile">
+                                    <div class="giant-quotes-quote">
+                                        <blockquote>
+                                            <p>El valor del producto está en la producción.</p>
+                                            <cite>-A. Einstein</cite>
+                                        </blockquote>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
                 </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
-    <section>
-     
-        <div class="row">
-          <div class="menu-disco">
-          <div class="col-sm-4">
-            <div class="pt-20">
-            <div class="pt-md-6">
-              <!-- A vertical navbar -->
-              <nav class="navbar ">
-                <!-- Links -->
-                <ul class="navbar-nav">
-                  <li class="nav-item">
-                    <a class="nav-link" href="index.html"><img src="images/m-inicio-check.png"></a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="awards.html"><img src="images/m-adwards-2.png"></a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="#"><img src="images/m-reels.png"></a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="#"><img src="images/m-sobre-mi.png"></a>
-                  </li>
-                </ul>
-              </nav>
-            </div>  
-          </div>
-        </div>
-        </div>
-      </div>
-    </section>
-    <section class="footer">
-      <footer>
-        <div class="row">
-          <div class="col-md-3">
-            <ul class="list-unstyled px-md-4">
-              <li><a href="#">+34 662 7373</a></li>
-              <li><a href="#">jagobon@jagobon.com</a></li>
-            </ul>
-          </div>
-          <div class="col-md-4">
-            <ul class="list-unstyled px-md-4">
-              <li><a href="#">Carrer de Bailen 23 - Ático 1</a></li>
-              <li><a href="#">02010 - Barcelona</a></li>
-            </ul>
-          </div>
-          <div class="col-md-5">
-            <div class="socials">
-              <a href="#" class="facebook"><i class="fa fa-linkedin"></i></a>
-              <a href="#" class="google"><i class="fa fa-instagram"></i></a>
-              <a href="#" class="google"><i class="fa fa-vimeo"></i></a>
-              <a href="#" class="google"><i class="fa fa-whatsapp"></i></a>
-            </div>
-          </div>
-        </div>
-        <!-- Copyright -->
-        <div class="copyright">
-          <div class="row">
-            <div class="col-md-6 ">
-              <div class="px-md-4">
-                <img src="images/logo-footer.png">
-              </div>
-            </div>
-            <div class="col-md-6">
-              <p>@JACOBCN 2023 - Aviso Legal - Política de Privacidad</p>
-            </div>
-          </div>
-        </div>
-  </div>
-  <!-- Copyright -->
-  </footer>
-  </section>
-  </div>
+            </section>
+            <section>
+                <div class="row">
+                    <div class="menu-disco">
+                    
+                        <div class="col-sm-4 col-8">
+                            <div class="pt-20">
+                                <div class="pt-md-6 px-4">
+                                    <!-- A vertical navbar -->
+                                    <div class="row">
+                                        <div class="col-sm-12">
+                                            <div class="sec-translate">
+                                                <div class="switch-button">
+                                                    <label for="switch-label" class="cast__label"></label>
+                                                    <input type="checkbox" name="switch-button" id="switch-label" class="switch-button__checkbox">
+                                                    <label for="switch-label" class="switch-button__label"></label>
+                                                    <label for="switch-label" class="eng__label"></label>
+                                                </div>
+                                               
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <nav class="navbar pt-3">
+                                        <!-- Links -->
+                                        <ul class="navbar-nav">
+                                            <li class="nav-item">
+                                                <a class="nav-link" href="#">
+                                                    <div class="menu-buttons">
+                                                        <img src="images/home/home.png" alt="Card Back">
+                                                        <img src="images/home/home-press.png" class="img-top">
+                                                    </div>
+                                                </a>
+                                            </li>
+                                            <li class="nav-item">
+                                                <a class="nav-link" href="2020-2022-new-reel-awards.html">
+                                                    <div class="menu-buttons">
+                                                        <img src="images/home/awards.png" alt="Card Back">
+                                                        <img src="images/home/awards-press.png" class="img-top">
+                                                    </div>
+                                                </a>
+                                            </li>
+                                            <li class="nav-item">
+                                                <a class="nav-link" href="#">
+                                                    <div class="menu-buttons">
+                                                        <img src="images/home/reels.png" alt="Card Back">
+                                                        <img src="images/home/reels-press.png" class="img-top">
+                                                    </div>
+                                                </a>
+                                            </li>
+                                            <li class="nav-item">
+                                                <a class="nav-link" href="#">
+                                                    <div class="menu-buttons">
+                                                        <img src="images/home/about.png" alt="Card Back">
+                                                        <img src="images/home/about-press.png" class="img-top">
+                                                    </div>
+                                                </a>
+                                            </li>
+                                        </ul>
+                                    </nav>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section class="footer px-4">
+                <footer>
+                    <div class="row">
+                        <div class="col-md-3 col-6 d-none d-sm-none d-md-block">
+                            <ul class="list-unstyled px-md-4">
+                                <li>
+                                    <a href="#">+34 662 7373</a>
+                                </li>
+                                <li>
+                                    <a href="#">jagobon@jagobon.com</a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="col-md-4 col-6 d-none d-sm-none d-md-block">
+                            <ul class="list-unstyled px-md-4">
+                                <li>
+                                    <a href="#">Carrer de Bailen 23 - Ático 1</a>
+                                </li>
+                                <li>
+                                    <a href="#">02010 - Barcelona</a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="col-md-5">
+                            <div class="socials">
+                                <a href="#" class="facebook">
+                                    <i class="fa fa-linkedin"></i>
+                                </a>
+                                <a href="#" class="google">
+                                    <i class="fa fa-vimeo"></i>
+                                </a>
+                                <a href="#" class="google">
+                                    <i class="fa fa-whatsapp"></i>
+                                </a>
+                            </div>
+                        </div>
+
+                        <div class="col-md-12  d-block d-sm-block d-md-none" style="float: right;text-align: right;">
+
+                            <ul class="list-unstyled px-md-4">
+                                <li>
+                                    <a href="#">@JACOBCN 2023</a>
+                                </li>
+                                <li>
+                                    <a href="#">Aviso legal</a>
+                                </li>
+                                <li>
+                                    <a href="#">Política de Privacidad</a>
+                                </li>
+                            </ul>
+                            
+                        </div>
+
+                    </div>
+                    <!-- Copyright -->
+                    <div class="copyright d-none d-sm-none d-md-block">
+                        <div class="row">
+                            <div class="col-md-6 d-none d-sm-none d-md-block">
+                                <div class="px-md-4">
+                                    <img src="images/logo-footer.png">
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <p>@JACOBCN 2023 - Aviso Legal - Política de Privacidad</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Copyright -->
+            </footer>
+        </section>
+    </div>
+</div>
+    </div>
 </body>
 
 </html>

@@ -21,6 +21,18 @@
             href="css/quotes.css"
             type="text/css"
             media="all">
+        <link
+            rel="stylesheet"
+            id="style-css"
+            href="css/tv.css"
+            type="text/css"
+            media="all">
+        <link
+            rel="stylesheet"
+            id="style-css"
+            href="css/tv2.css"
+            type="text/css"
+            media="all">
         <!-- Bootstrap CSS -->
         <title>Javier+Gonzales</title>
         <meta charset="utf-8">
@@ -35,47 +47,204 @@
             src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js"></script>
         <script src="https://kit.fontawesome.com/222769f28f.js" crossorigin="anonymous"></script>
         <script src="js/date.js"></script>
+
+        <style>
+            .iphone-x {
+                position: relative;
+                margin: 40px auto;
+                width: 100%;
+                height: 500px;
+                background-color: #c1bfb6;
+                background-image: #c1bfb6;
+                border-radius: 40px;
+                box-shadow: 0 0 0 11px #141313, 0 0 0 13px #a5a5a5, 0 0 0 16px #111;
+            }
+            .iphone-x:after,
+            .iphone-x:before {
+                content: "";
+                position: absolute;
+                left: 50%;
+                transform: translateX(-50%);
+            }
+            .iphone-x:after {
+                bottom: 7px;
+                width: 140px;
+                height: 4px;
+                background-color: #f2f2f2;
+                border-radius: 10px;
+            }
+            .iphone-x:before {
+                top: 0;
+                width: 56%;
+                height: 30px;
+                background-color: #1f1f1f;
+                border-radius: 0 0 40px 40px;
+            }
+            .iphone-x b,
+            .iphone-x i,
+            .iphone-x s,
+            .iphone-x span {
+                position: absolute;
+                display: block;
+                color: transparent;
+            }
+            .iphone-x i {
+                top: 0;
+                left: 50%;
+                transform: translate(-50%, 6px);
+                height: 8px;
+                width: 15%;
+                background-color: #101010;
+                border-radius: 8px;
+                box-shadow: inset 0 -3px 3px 0 rgba(255, 255, 255, 0.2);
+            }
+            .iphone-x b {
+                left: -5%;
+                top: 0;
+                transform: translate(180px, 4px);
+                width: 12px;
+                height: 12px;
+                background-color: #101010;
+                border-radius: 12px;
+                box-shadow: inset 0 -3px 2px 0 rgba(255, 255, 255, 0.2);
+            }
+            .iphone-x b:after {
+                content: "";
+                position: absolute;
+                background-color: #2d4d76;
+                width: 6px;
+                height: 6px;
+                top: 2px;
+                left: 2px;
+                top: 3px;
+                left: 3px;
+                display: block;
+                border-radius: 4px;
+                box-shadow: inset 0 -2px 2px rgba(0, 0, 0, 0.5);
+            }
+            .iphone-x s {
+                top: 50px;
+                color: #fff;
+                text-align: center;
+                text-decoration: none;
+                width: 100%;
+                font-size: 70px;
+                font-weight: 100;
+                padding: 0 5%;
+            }
+            .iphone-x span {
+                bottom: 50px;
+                width: 40px;
+                height: 40px;
+                background-color: rgba(0, 0, 0, 0.3);
+                border-radius: 50%;
+                left: 30px;
+            }
+            .iphone-x span + span {
+                left: auto;
+                right: 30px;
+            }
+        </style>
+
     </head>
 
     <body>
         <div class="container revista">
             <section class="head">
                 <div class="row">
-                    <div class="col-md-4" style="background: linear-gradient(to bottom, #000000, #545454);">
-                            <div class="pt-md-5 px-md-3 text-center">
-                                <img style="width: 100%; padding-top: 20px;" src="images/logo-2.png">
-                            </div>
-                            <!-- A vertical navbar -->
-                            <nav class="navbar" style="padding-top: 50px;">
-                                <!-- Links -->
-                                <ul class="navbar-nav">
-                                    <li class="nav-item">
-                                        <a class="nav-link" href="index.html"><img src="images/m-bn-inicio.png"></a>
-                                    </li>
-                                    <li class="nav-item">
-                                        <a class="nav-link" href="awards.html"><img src="images/m-bn-adwards-check.png"></a>
-                                    </li>
-                                    <li class="nav-item">
-                                        <a class="nav-link" href="#"><img src="images/m-bn-reel.png"></a>
-                                    </li>
-                                    <li class="nav-item">
-                                        <a class="nav-link" href="#"><img src="images/m-bn-sobre-mi.png"></a>
-                                    </li>
-                                </ul>
-                            </nav>
+                    <div
+                        class="col-md-4"
+                        style="background: linear-gradient(to bottom, #000000, #545454);">
+                        <div class="pt-md-5 px-md-3 text-center">
+                            <img style="width: 100%; padding-top: 20px;" src="_images/logo-2.png">
+                        </div>
+                        <!-- A vertical navbar -->
+                        <nav class="navbar" style="padding-top: 50px;">
+                            <!-- Links -->
+                            <ul class="navbar-nav">
+                                <li class="nav-item">
+                                    <a class="nav-link" href="index.html"><img src="images/m-bn-inicio.png"></a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="awards.html"><img src="images/m-bn-adwards-check.png"></a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#"><img src="images/m-bn-reel.png"></a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#"><img src="images/m-bn-sobre-mi.png"></a>
+                                </li>
+                            </ul>
+                        </nav>
 
-                       
                     </div>
                     <div class="col-sm-8">
-                        <div class="pt-md-5 px-md-3">
-                            <div class="row">
-                             
+
+                        <div class="row">
+                            <div class="col-md-6">
+                                <div class="container">
+                                    <div class="iphone-x">
+                                        <i>Speaker</i>
+                                        <b>Camera</b>
+
+                                        <img width="100%" src="images/projects/macallan.png">
+                                        <h1 class="texto">HOLA</h1>
+                                        <div class="television__center">
+                                            <div class="television__screen">
+                                                <iframe
+                                                    src="videos/The_Macallan_-__Tales_of_the_Macallan___Product_Video___ENG.mp4"
+                                                    frameborder="0"
+                                                    allowfullscreen="allowfullscreen"></iframe>
+                                            </div>
+                                        </div>
+
+                                        <span>Left action button</span>
+                                        <span>Right action button</span>
+                                    </div>
+                                </div>
                             </div>
+
+                            <div class="col-md-6">
+                                <div class="container">
+                                    <div class="iphone-x">
+                                        <i>Speaker</i>
+                                        <b>Camera</b>
+
+                                        <div class="television__center">
+                                            <div class="television__screen">
+                                                <video width="320" height="240" controls="controls">
+                                                    <source
+                                                        src="videos/The_Macallan_-__Tales_of_the_Macallan___Product_Video___ENG.mp4"
+                                                        type="video/mp4">
+                                                    Your browser does not support the video tag.
+                                                </video>
+                                            </div>
+                                        </div>
+
+                                        <span>Left action button</span>
+                                        <span>Right action button</span>
+                                    </div>
+                                </div>
+                            </div>
+
                         </div>
+
                     </div>
                 </div>
             </section>
         </div>
+
+        <script>
+            var buttons = document.querySelectorAll('.television__channel a');
+            for (var i = 0; i < buttons.length; i++) {
+                buttons[i].addEventListener('click', function (e) {
+                    document
+                        .querySelector('.television__screen iframe')
+                        .src = this.href;
+                    e.preventDefault();
+                });
+            }
+        </script>
     </body>
 
 </html>
